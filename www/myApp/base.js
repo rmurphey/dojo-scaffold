@@ -1,4 +1,3 @@
-/*
 dojo.provide('myApp.base');
 
 // specify the file's dependencies
@@ -14,12 +13,13 @@ dojo.ready(function() {
     .placeAt(dojo.body());
 });
 
+/*
 alternate version if we only want to load
 doohickey under certain circumstances, 
 and don't want it in our base layer
-*/
 dojo.provide('myApp.base');
 
+dojo.require('myApp.Settings');
 dojo.require('myApp.Thinger');
 
 dojo.addOnLoad(function() {
@@ -34,3 +34,4 @@ if (pageNeedsDoohickey) {
       .placeAt(dojo.body());
   });
 }
+*/
