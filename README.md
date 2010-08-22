@@ -1,5 +1,8 @@
-# Scaffolding a Buildable Dojo Application
+# NOTE
+This repo is a scratch pad for an article I wrote about Scaffolding a Buildable Dojo Application. Make sure you follow the steps for **Getting Dojo** below, and extract both files into the `www/` directory using the naming conventions in the **Where Do I Put It?** section if you want any of the build stuff to work.
 
+
+# Scaffolding a Buildable Dojo Application
 One of the most confusing things about using a toolkit like Dojo can be getting it set up properly to take advantage of all of its features, such as its package management system. Sure, you can use a [CDN-hosted version](http://dojotoolkit.org/download/) of the toolkit, but one of the major reasons I like Dojo is because of the dependency management and build tools it offers, and it's difficult to really take advantage of these when you're only using the library from the CDN. 
 
 If you skip the build step, Dojo's modular nature means you'll end up downloading a whole lot of files, and making a whole lot of HTTP requests in the process. It's fine for development and general messing around, or if your project just requires a few files, but for the kinds of projects where I think Dojo really shines, you're going to want to do your own build. 
@@ -8,7 +11,6 @@ My goal in this article is to show how I set up my files to make this easier. Th
 
 
 ## Step 1: Getting Dojo
-
 I like to download two different Dojo packages: 
 
   * The [toolkit release (2mb .tar.gz)](http://download.dojotoolkit.org/release-1.5.0/dojo-release-1.5.0.tar.gz), which includes compressed versions of all of the Dojo, Dijit, and Dojox modules. 
@@ -278,3 +280,4 @@ There is no step 8. There is step 1 through 7, which is way more than "put this 
 
   * [Documentation of the Dojo build system](http://docs.dojocampus.org/build/index)
   * [dojo.cache](http://docs.dojocampus.org/dojo/cache): Using module paths to specify the location of strings such as templates, which are then interned into your code at build time: `dojo.cache('myApp.templates', 'Thinger.html)`
+  * [A GitHub repo of my scratch pad for this article]
