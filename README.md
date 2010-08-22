@@ -280,4 +280,3 @@ There is no step 8. There is step 1 through 7, which is way more than "put this 
 
   * [Documentation of the Dojo build system](http://docs.dojocampus.org/build/index)
   * [dojo.cache](http://docs.dojocampus.org/dojo/cache): Using module paths to specify the location of strings such as templates, which are then interned into your code at build time: `dojo.cache('myApp.templates', 'Thinger.html)`
-  * [A GitHub repo of my scratch pad for this article](http://github.com/rmurphey/dojo-scaffold)
