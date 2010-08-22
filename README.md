@@ -1,5 +1,5 @@
 # NOTE
-This repo is a scratch pad for an article I wrote about Scaffolding a Buildable Dojo Application. Make sure you follow the steps for **Getting Dojo** below, and extract both files into the `www/` directory using the naming conventions in the **Where Do I Put It?** section if you want any of the build stuff to work.
+This repo is a scratch pad for an article I wrote about [Scaffolding a Buildable Dojo Application](http://blog.rebeccamurphey.com/scaffolding-a-buildable-dojo-application). Make sure you follow the steps for **Getting Dojo** below, and extract both files into the `www/` directory using the naming conventions in the **Where Do I Put It?** section if you want any of the build stuff to work.
 
 
 # Scaffolding a Buildable Dojo Application
@@ -280,4 +280,4 @@ There is no step 8. There is step 1 through 7, which is way more than "put this 
 
   * [Documentation of the Dojo build system](http://docs.dojocampus.org/build/index)
   * [dojo.cache](http://docs.dojocampus.org/dojo/cache): Using module paths to specify the location of strings such as templates, which are then interned into your code at build time: `dojo.cache('myApp.templates', 'Thinger.html)`
-  * [A GitHub repo of my scratch pad for this article]
+  * [A GitHub repo of my scratch pad for this article](http://github.com/rmurphey/dojo-scaffold)
